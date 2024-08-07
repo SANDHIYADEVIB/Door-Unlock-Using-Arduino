@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="devices">Bluetooth Devices</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+    <string name="slot11">Sent 1</string>
+    <string name="slot12">Sent 2</string>
+    <string name="slot21">Sent 3</string>
+    <string name="slot22">Sent 4</string>
+
+    <string name="slot31">Sent 5</string>
+    <string name="slot32">Sent 6</string>
+    <string name="slot41">Sent 7</string>
+    <string name="slot42">Sent 8</string>
+
+</resources>

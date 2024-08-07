@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the Doors"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="?android:attr/listDivider"
+        android:layout_height="2dp" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="500px"
+                android:layout_marginTop="50px"
+                android:text="Door 1"
+                android:background="@drawable/door"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight ="10dp"
+                android:textStyle="bold"/>
+        <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="500px"
+                android:layout_marginTop="50px"
+                android:text="Door 2"
+                android:background="@drawable/door"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight ="10dp"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="500px"
+                android:layout_marginTop="50px"
+                android:text="Door 3"
+                android:background="@drawable/door"
+                android:textSize="16sp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight ="10dp"
+                android:textStyle="bold"/>
+        <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="500px"
+                android:layout_marginTop="50px"
+                android:text="Door 4"
+                android:background="@drawable/door"
+                android:textSize="16sp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight ="10dp"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+</LinearLayout>
+
